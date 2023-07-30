@@ -8,15 +8,4 @@ install_homebrew() {
     fi
 }
 
-# Running install git
-install_git() {
-    if ! command -v git &> /dev/null; then
-        echo "Git not found. Please install Git before proceeding."
-        exit 1
-    else
-        echo "Git is already installed."
-    fi
-}
-
 install_homebrew
-install_git
