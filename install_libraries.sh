@@ -16,6 +16,7 @@ install_homebrew
 install_git() {
     if ! command -v git &> /dev/null; then
         echo "Git not found. Please install Git before proceeding."
+        brew install git
         exit 1
     else
         echo "Git is already installed."
