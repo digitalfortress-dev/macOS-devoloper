@@ -27,15 +27,15 @@ install_git() {
 install_git
 #####################
 
-# Check if the repository already exists, if not, clone it
-if [ ! -d "macOS-devoloper" ]; then
-    git clone https://github.com/digitalfortress-dev/macOS-devoloper.git
-else
-    echo "macOS-devoloper directory already exists. Skipping git clone."
-fi
+# # Check if the repository already exists, if not, clone it
+# if [ ! -d "macOS-devoloper" ]; then
+#     git clone https://github.com/digitalfortress-dev/macOS-devoloper.git
+# else
+#     echo "macOS-devoloper directory already exists. Skipping git clone."
+# fi
 
-# Change directory to the repository folder
-cd macOS-devoloper
+# # Change directory to the repository folder
+# cd macOS-devoloper
 
 ### Chmod Permission to Install Lib
 chmod +x common.sh
